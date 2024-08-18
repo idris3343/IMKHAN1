@@ -2,8 +2,7 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 module.exports = {
-  defaultNetwork: "swisstronik",
-  solidity: "0.8.20",
+  solidity: "0.8.19",
   networks: {
     swisstronik: {
       url: "https://json-rpc.testnet.swisstronik.com/",
